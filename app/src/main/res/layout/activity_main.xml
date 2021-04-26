@@ -34,19 +34,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="+3 Points" />
+            android:text="+3 Points"
+            android:onClick="teamA_3"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="+2 Points" />
+            android:text="+2 Points"
+            android:onClick="teamA_2"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="Free Throw (+1)" />
+            android:text="Free Throw (+1)"
+            android:onClick="teamA_1"/>
     </LinearLayout>
 
     <LinearLayout
@@ -77,18 +80,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="+3 Points" />
+            android:text="+3 Points"
+            android:onClick="teamB_3"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="+2 Points" />
+            android:text="+2 Points"
+            android:onClick="teamB_2"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="Free Throw (+1)" />
+            android:text="Free Throw (+1)"
+            android:onClick="teamB_1"/>
     </LinearLayout>
 </LinearLayout>

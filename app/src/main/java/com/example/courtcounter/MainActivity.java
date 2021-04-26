@@ -29,4 +29,23 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
+
+    //For team B
+
+    public void teamB_1(View view){
+        displayForTeamB(1);
+    }
+    public void teamB_2(View view){
+        displayForTeamB(2);
+    }
+    public void teamB_3(View view){
+        displayForTeamB(3);
+    }
+    /**
+     * Displays the given score for Team B.
+     */
+    public void displayForTeamB(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.team_b_score);
+        scoreView.setText(String.valueOf(score));
+    }
 }
