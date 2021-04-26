@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -56,5 +57,13 @@ public class MainActivity extends AppCompatActivity {
     public void displayForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
+    }
+
+    public void reset(View view) {
+        score_TeamA = 0;
+        score_TeamB = 0;
+        displayForTeamA(0);
+        displayForTeamB(0);
+        Toast.makeText(this,"Scores Reset",Toast.LENGTH_SHORT).show();
     }
 }
